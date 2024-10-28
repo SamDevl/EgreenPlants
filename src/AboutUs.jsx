@@ -23,7 +23,7 @@ function AboutUs() {
       {/* Shop Now prompt and categories explanation */}
       <p className="about-us-content">
         
-        Click On The <a onClick={handleGetStartedClick}><strong>Shop Now Button </strong></a>   To Explore Our Categories:
+        Click On The <strong>Shop Now Button </strong>   To Explore Our Categories:
 
         <br />
         <strong>Air Purifying Plants:</strong> Discover our collection of plants that improve your indoor air quality while adding a vibrant touch to your decor. From the resilient Snake Plant to the elegant Peace Lily, breathe easier with nature at your side.<br />

@@ -232,7 +232,7 @@ function ProductList(props) {
         }
     ];
    const styleObj={
-    backgroundColor: '#615EFC',
+    backgroundColor: '#00b300',
     color: '#fff!important',
     padding: '15px',
     display: 'flex',
@@ -274,8 +274,8 @@ const handlePlantsClick = (e) => {
                <img src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png" alt="" />
                <a   style={{textDecoration:'none'}}>
                         <div>
-                    <h3 style={{color:'white'}}>Ziad's Plants</h3>
-                    <i style={{color:'white'}}>Where Green Meets Serenity</i>
+                    <h3 style={{color:'white'}}>Egreen Plants</h3>
+                    <i style={{color:'white'}}>Where Green Meets The Internet</i>
                     </div>
                     </a>
                 </div>
