@@ -21,12 +21,12 @@ function App() {
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
-         <h1>Welcome To Ziad's Plants</h1>
+         <h1>Welcome To Egreen Plants</h1>
           <div className="divider"></div>
-          <p>Where Green Meets Serenity</p>
+          <p>Where Green Meets The Internet</p>
          
           <button className="get-started-button" onClick={handleGetStartedClick}>
-            Get Started
+            Shop Now!
           </button>
          </div>
           <div className="aboutus_container">
