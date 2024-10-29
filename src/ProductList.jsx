@@ -271,7 +271,7 @@ const handlePlantsClick = (e) => {
              <div className="navbar" style={styleObj}>
             <div className="tag">
                <div style={{cursor:"pointer"}} onClick={props.toLanding} className="luxury">
-               <img src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png" alt="" />
+               <img src="https://img.freepik.com/premium-vector/vector-art-small-plant-white-background_1266257-11999.jpg?w=740" alt="" />
                <a   style={{textDecoration:'none'}}>
                         <div>
                     <h3 style={{color:'white'}}>Egreen Plants</h3>
@@ -298,7 +298,7 @@ const handlePlantsClick = (e) => {
                     <h2>{plant.name}</h2>
                     <p>{plant.description}</p>
                     <p>{plant.cost}</p>
-                    <button style={{backgroundColor:alreadyInCart(plant.name)?"gray":"#615EFC"}} disabled={alreadyInCart(plant.name)? true:false} onClick={()=>handleAddToCart({name:plant.name,cost:plant.cost,image:plant.image})} className='product-button'>Add to Cart</button>
+                    <button style={{backgroundColor:alreadyInCart(plant.name)?"gray":"#00b300"}} disabled={alreadyInCart(plant.name)? true:false} onClick={()=>handleAddToCart({name:plant.name,cost:plant.cost,image:plant.image})} className='product-button'>Add to Cart</button>
                 </div>)}
                  </div>
             </div>)}
